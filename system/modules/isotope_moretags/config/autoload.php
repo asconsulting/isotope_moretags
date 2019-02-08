@@ -16,7 +16,7 @@
  */
 ClassLoader::addClasses(array
 (
-    'IsotopeAsc\IsotopeMoreTags' 	=> 'system/modules/isotope_moretags/library/IsotopeAsc/Backend/Attribute/MultiAliasCallback.php'
+    'IsotopeAsc\IsotopeMoreTags' 	=> 'system/modules/isotope_moretags/library/IsotopeAsc/IsotopeMoreTags.php'
 ));
 
 
