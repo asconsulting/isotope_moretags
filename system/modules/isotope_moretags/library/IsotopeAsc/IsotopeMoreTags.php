@@ -65,6 +65,10 @@ class IsotopeMoreTags extends Isotope
 					$objProduct = Product::findByPk(intval($arrTag[2]));
 				}
 				
+				if (!$objProduct) {
+					return '';
+				}
+				
 				switch ($arrTag[1]) {
 					case 'url':
 					case 'link':
