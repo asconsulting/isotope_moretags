@@ -74,7 +74,7 @@ class IsotopeMoreTags extends Isotope
 					case 'link':
 						
 						if (!$objProduct) { 
-							return FALSE;
+							return '';
 						}
 						
 						if ($arrTag[3] != '') {
@@ -84,7 +84,7 @@ class IsotopeMoreTags extends Isotope
 						}
 						$objTemplate = new \FrontendTemplate($strTemplate);
 						if (!$objTemplate) { 
-							return FALSE;
+							return '';
 						}
 						
 						$arrCategories = $objProduct->getCategories();
@@ -95,7 +95,7 @@ class IsotopeMoreTags extends Isotope
 						}
 						
 						if (!is_a($objPage, 'Contao\PageModel')) {
-							return FALSE;
+							return '';
 						}
 											
 						$objTemplate->linkTitle = $objProduct->name;
