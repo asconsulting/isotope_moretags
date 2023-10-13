@@ -11,7 +11,7 @@
 
 
 
-namespace IsotopeAsc;
+namespace MoreTags;
 
 use Haste\Data\Plain;
 use Haste\Haste;

@@ -21,8 +21,8 @@
     },
     "autoload": {
         "psr-4": {
-            "IsotopeAsc\\": [
-                "system/modules/isotope_moretags/library/IsotopeAsc"
+            "MoreTags\\": [
+                "system/modules/isotope_moretags/library/MoreTags"
             ]
         }
     },

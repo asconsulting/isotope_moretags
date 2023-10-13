@@ -15,5 +15,5 @@
  * Hooks
  */
 if (\Config::getInstance()->isComplete()) {
-	$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('IsotopeAsc\IsotopeMoreTags', 'insertTags');
+	$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('MoreTags\IsotopeMoreTags', 'insertTags');
 }
