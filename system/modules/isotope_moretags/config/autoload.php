@@ -3,7 +3,7 @@
 /**
  * Isotope More Tags
  *
- * Copyright (C) 2019 Andrew Stevens Consulting
+ * Copyright (C) 2023 Andrew Stevens Consulting
  *
  * @package    asconsulting/isotope_moretags
  * @link       https://andrewstevens.consulting
